@@ -1,0 +1,78 @@
+{
+  "checked_on": "2026-10-21",
+  "platform": "Windows",
+  "isolated_destinations_only": true,
+  "cases": [
+    {
+      "case": "fresh_install_into_path_with_spaces",
+      "passed": true
+    },
+    {
+      "case": "manifest_explicitly_declares_v2",
+      "passed": true
+    },
+    {
+      "case": "attribution_and_rights_notice_retained",
+      "passed": true
+    },
+    {
+      "case": "identical_reinstall_is_noop",
+      "passed": true
+    },
+    {
+      "case": "same_runtime_updates_notices_and_backs_up_legacy_license",
+      "passed": true
+    },
+    {
+      "case": "notice_only_update_keeps_atlas_bytes",
+      "passed": true
+    },
+    {
+      "case": "updated_notices_make_next_install_noop",
+      "passed": true
+    },
+    {
+      "case": "different_version_backed_up_before_update",
+      "passed": true
+    },
+    {
+      "case": "other_pets_and_existing_extra_files_preserved",
+      "passed": true
+    },
+    {
+      "case": "tampered_source_rejected_without_destination_write",
+      "passed": true
+    },
+    {
+      "case": "unsafe_manifest_path_rejected",
+      "passed": true
+    },
+    {
+      "case": "missing_rights_notice_rejected_without_destination_write",
+      "passed": true
+    },
+    {
+      "case": "cli_honors_CODEX_HOME",
+      "passed": true
+    },
+    {
+      "case": "explicit_path_overrides_environment",
+      "passed": true
+    },
+    {
+      "case": "live_pet_files_unchanged",
+      "passed": true
+    },
+    {
+      "case": "documentation_local_links_resolve",
+      "passed": true
+    },
+    {
+      "case": "single_pet_zip_has_one_correct_root_and_original_atlas",
+      "passed": true
+    }
+  ],
+  "passed": 17,
+  "failed": 0,
+  "native_macos_linux_rendering_tested": false
+}

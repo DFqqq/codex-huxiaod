@@ -1,0 +1,23 @@
+{
+  "checked_on": "2026-10-21",
+  "pet_id": "hu-xiao-d",
+  "sprite_version": 2,
+  "dimensions": [
+    1536,
+    2288
+  ],
+  "required_cells": 73,
+  "unused_transparent_cells": 15,
+  "atlas_sha256": "e551eeae1596f9c73a273461963451bfbca7373755d37b5edef16d7398361aa0",
+  "original_atlas_bytes_preserved": true,
+  "structural_validator": "bundled work-pets validate_atlas.py --require-v2",
+  "structural_ok": true,
+  "errors": [],
+  "warnings": [],
+  "preview_source": "Packaged atlas; native 192x208 crops without redrawing",
+  "coverage_limits": [
+    "Structural validation is not a complete motion quality or direction-semantic certification",
+    "No new native macOS/Linux application or terminal rendering test",
+    "Original artwork preserved; no full regeneration or quality-gate claim"
+  ]
+}
